@@ -17,6 +17,7 @@ To run this first download our model checkpoint from:
 
 or 
 train the model using the command
+
 python3 feature_model.py(uncomment all the training, testing lines)
 
 and place it model2 folder(you should create it) in stream lit 
@@ -30,4 +31,4 @@ streamlit run streamlit-app.py.
 Hope you enjoy our app
 
 ## Code walkthrough
-Install all the dependencies 
+Install all the dependencies given in requirements.txt
