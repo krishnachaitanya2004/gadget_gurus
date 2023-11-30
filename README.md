@@ -14,7 +14,6 @@ Made using the stream-lit interface for this type.
 ## Instructions
 To run this first download our model checkpoint from and you can also find our project demo here:
 https://drive.google.com/drive/folders/1liLYMqyUZx_8BUpubc1O2sTWOhqOHcxS
-https://drive.google.com/drive/folders/1liLYMqyUZx_8BUpubc1O2sTWOhqOHcxS
 or 
 train the model using the command
 
@@ -31,5 +30,5 @@ streamlit run streamlit-app.py.
 Hope you enjoy our app
 
 ## Code walkthrough
-Install all the dependencies given in requirements.txt using:
+Install all the dependencies given in requirements.txt 
 
