@@ -1,5 +1,5 @@
 # Gadget_Guru
-
+Our project is to develop a chatbot prototype designed to assist users in recommending mobile phones based on their preferences and queries.​​ 
 ## Team Members
 |Roll No. | Team Member                  |
 |-----|------------------------------|
