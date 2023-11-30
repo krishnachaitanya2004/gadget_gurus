@@ -17,7 +17,7 @@ https://drive.google.com/drive/folders/1liLYMqyUZx_8BUpubc1O2sTWOhqOHcxS
 
 or 
 train the model using the command:
-- Trains the NMF() model
+- Training the the NMF() model
 `python3 user.py`
 - Training the Bert Model
 `python3 feature_model.py(uncomment all the training, testing lines)`
