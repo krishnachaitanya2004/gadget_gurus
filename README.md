@@ -30,19 +30,27 @@ Gadget Guru is a chatbot prototype designed to assist users in finding the perfe
    pip install -r requirements.txt
 2. To run this first download our model checkpoint from:
 https://drive.google.com/drive/folders/1liLYMqyUZx_8BUpubc1O2sTWOhqOHcxS
-   or 
-   train the model using the command:
-   - Training the the NMF() model
-   `python3 user.py`
-   - Training the Bert Model
-   `python3 feature_model.py(uncomment all the training, testing lines)`
+_or_ train the model using (instructsions below)
 
-and place the saved pytorch checkpoint in model2 folder(you should create it)
-Ensure that streamlit-app.py and user.py, user_prod_ratings.csv are in same directory.
-Then run :
+### Taining the Models
+1️⃣ **Normalized Matrix Factorization (NMF) Model**
+- Train the model
+`python3 user.py`
+2️⃣ **BERT-Based Model**
+- Train the feature extractor:
+`python3 feature_model.py(uncomment all the training, testing lines)`
+
+
+## Running the App:
+1. Ensure all required files are in the same directory:
+
+- **streamlit-app.py**
+- **user.py**
+- **user_prod_ratings.csv**
+2. Create a folder named model2 and place the saved PyTorch checkpoint in it.
+3 . Install all requirements by running 
 `pip install -r requirements.txt`
-
-Finally, run:
+4. Start the app
 `streamlit run streamlit-app.py`
 
 Hope you enjoy our app
