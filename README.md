@@ -42,11 +42,11 @@ _or_ train the model using (instructsions below)
 
 
 ## Running the App:
-1. Ensure all required files are in the same directory:
-<br />
-- **streamlit-app.py** <br />
-- **user.py** <br />
-- **user_prod_ratings.csv** <br />
+1. Ensure the following files are located in the same directory:
+
+- **`streamlit-app.py`**
+- **`user.py`**
+- **`user_prod_ratings.csv`**
 2. Create a folder named model2 and place the saved PyTorch checkpoint in it.
 3 . Install all requirements by running 
 `pip install -r requirements.txt`
@@ -70,4 +70,28 @@ _or_ train the model using (instructsions below)
    - Functions: Train, Test, Predict.
    - Loss Function: Cross-Entropy.
    - Trained for 25 epochs.
--  **user.py** trains a Normalized Matrix Factorization Model for providing recommendations. We use this model to get user-latent vectors and item-latent vectors, then provide recommendations based on the cosine similarities between the user vector and all item-latent vectors. The loss function used is regularized MSE Loss. Training has been done for default values(25 epochs). This also has code for taking the feature-vector generated above and recommending phones based on cosine similarity scores. Both these similarity scores are normalized and weighted average of them is taken as final output of the recommendations.
+3. **user.py**:
+    - This trains train a **Normalized Matrix Factorization (NMF)** model for generating recommendations.
+    **Process**:
+   - The model learns **user-latent vectors** and **item-latent vectors** by optimizing a **regularized Mean             Squared Error (MSE) Loss** function.
+   - Training is conducted for **default settings** (e.g., 25 epochs).
+   
+   **Recommendation Generation**:
+   - **Cosine Similarity** is used to compute:
+     - Similarities between the **user vector** and all **item-latent vectors**.
+   - Recommendations are generated based on these similarity scores.
+   
+   **Additional Features**:
+   - Includes a method to take a **feature vector** (generated earlier) and recommend **phones** based on their         **cosine similarity scores**.
+   - **Normalization** and a **weighted average** of multiple similarity scores are used to produce the final           recommendation output.
+  
+## Recommendation Workflow
+1. Extract feature vectors from user queries using feature_model.py.
+2. Compute recommendations using cosine similarity between the user vector and item-latent vectors.
+3. Normalize the similarity scores for both models.
+4. Calculate a weighted average of the normalized scores to finalize the recommendations.  
+
+## 🎉 Enjoy the App!
+Your feedback and contributions are welcome!
+
+💡 Built for everyone who loves finding the perfect gadget.
