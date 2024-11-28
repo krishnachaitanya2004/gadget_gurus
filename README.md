@@ -43,7 +43,7 @@ _or_ train the model using (instructsions below)
 
 ## Running the App:
 1. Ensure all required files are in the same directory:
-<br\>
+   
 - **streamlit-app.py**
 - **user.py**
 - **user_prod_ratings.csv**
