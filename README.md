@@ -53,18 +53,21 @@ _or_ train the model using (instructsions below)
 4. Start the app
 `streamlit run streamlit-app.py`
 
-Hope you enjoy our app
+## 📜 Code Walkthrough
+### Data Preparation
+- **dataprocess.py**: Processes original mobile phone data into a clean dataset.
+- **generator.py**: Generates user-phone ratings stored in user_prod_ratings.csv.
 
-First, we use dataprocess.py to generate new processed mobile phone data with the original data.
-Then we used generator.py to generate user-phone ratings (user_prod_ratings.csv).
-Then we have three main files of the project:
-
-## Code walkthrough
-Install all the dependencies given in requirements.txt
-
--  First, we use dataprocess.py to generate new processed mobile phone data with the original data
--  Then we used generator.py to generate user-phone ratings(user_prod_ratings.csv)
--  Then we have three main files of the project
--  **streamlit-app.py** defines the interface of this project, making the user input their query and receive recommendations. This is done using the Streamlit API library in Python. Here, we process the query given by the user using standard NLP techniques.
-- **feature_model.py** trains the BERTClassifier model to extract the required feature vectors from the processed query. This is used as the feature vector for this user to find recommendations. BERTClassifier is a new model which uses base model as BERT-Base and added a linear layer (dimensions - (768 ,5)) with relu activation. It has train, test, predict functions, which does their respective jobs.Loss function used is CrossEntropy. Training has been done for 25 epochs.
+### Key Files
+1. **streamlit-app.py**:
+   - Defines the app interface using the Streamlit API.
+   - Processes user queries with NLP techniques and provides recommendations.
+2. **feature_model.py**:
+   - Trains a BERT-based classifier for feature extraction.
+   - **Architecture**:
+      - **Base**: BERT-Base.
+      - **Added Layer**: Linear (768, 5) with ReLU activation.
+   - Functions: Train, Test, Predict.
+   - Loss Function: Cross-Entropy.
+   - Trained for 25 epochs.
 -  **user.py** trains a Normalized Matrix Factorization Model for providing recommendations. We use this model to get user-latent vectors and item-latent vectors, then provide recommendations based on the cosine similarities between the user vector and all item-latent vectors. The loss function used is regularized MSE Loss. Training has been done for default values(25 epochs). This also has code for taking the feature-vector generated above and recommending phones based on cosine similarity scores. Both these similarity scores are normalized and weighted average of them is taken as final output of the recommendations.
