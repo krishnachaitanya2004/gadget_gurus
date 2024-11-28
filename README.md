@@ -44,9 +44,9 @@ _or_ train the model using (instructsions below)
 ## Running the App:
 1. Ensure all required files are in the same directory:
 <br />
-- **streamlit-app.py**<br />
-- **user.py**<br />
-- **user_prod_ratings.csv**<br />
+- **streamlit-app.py** <br />
+- **user.py** <br />
+- **user_prod_ratings.csv** <br />
 2. Create a folder named model2 and place the saved PyTorch checkpoint in it.
 3 . Install all requirements by running 
 `pip install -r requirements.txt`
