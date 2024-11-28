@@ -1,4 +1,4 @@
-# 📱 Gadget Guru  
+# 📱 Mobile Gurus 
 **Your Personal Mobile Recommendation Chatbot**  
 
 Gadget Guru is a chatbot prototype designed to assist users in finding the perfect mobile phone based on their preferences and queries. Built with an interactive **Streamlit** interface, it combines machine learning models and intuitive UI to deliver tailored recommendations.  
