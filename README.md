@@ -1,18 +1,34 @@
-# Gadget_Guru
-Our project is to develop a chatbot prototype designed to assist users in recommending mobile phones based on their preferences and queries.​​ 
-## Team Members
-|Roll No. | Team Member                  |
-|-----|------------------------------|
-| 210050008   | Akkapally Shasmith Krishna  |
-| 210050057   | Gorle Krishna Chaitanya |
-| 210050167 | Vutukuri Vinay Mohan |
-| 210050003 | Addanki Sanjeev Varma |
+# 📱 Gadget Guru  
+**Your Personal Mobile Recommendation Chatbot**  
 
-A chat interface that recommends mobile phones based on queries given by the 
-Made using the stream-lit interface for this type.
+Gadget Guru is a chatbot prototype designed to assist users in finding the perfect mobile phone based on their preferences and queries. Built with an interactive **Streamlit** interface, it combines machine learning models and intuitive UI to deliver tailored recommendations.  
 
-## Instructions
-To run this first download our model checkpoint from:
+---
+
+## 🚀 Features
+- **Smart Recommendations**: Personalized suggestions using advanced NLP techniques.  
+- **Interactive Interface**: Built with Streamlit for a smooth and engaging user experience.  
+- **Custom Models**: Powered by BERT-based classification and matrix factorization for accurate results.  
+
+---
+
+## 🧑‍💻 Team Members  
+| Roll No.     | Team Member                  |  
+|--------------|------------------------------|  
+| 210050008    | Akkapally Shasmith Krishna   |  
+| 210050057    | Gorle Krishna Chaitanya      |  
+| 210050167    | Vutukuri Vinay Mohan         |  
+| 210050003    | Addanki Sanjeev Varma        |  
+
+---
+
+## 🛠️ Setup Instructions  
+
+### Prerequisites
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+2. To run this first download our model checkpoint from:
 https://drive.google.com/drive/folders/1liLYMqyUZx_8BUpubc1O2sTWOhqOHcxS
 
 or 
