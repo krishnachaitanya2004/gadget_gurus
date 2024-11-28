@@ -94,4 +94,4 @@ _or_ train the model using (instructsions below)
 ## 🎉 Enjoy the App!
 Your feedback and contributions are welcome!
 
-💡 Built for everyone who loves finding the perfect gadget.
+💡 Built for everyone who loves finding the perfect Mobile.
