@@ -97,4 +97,4 @@ In future we are thinking to extend our model for variours **gadget recommendati
 ## 🎉 Enjoy the App!
 Your feedback and contributions are welcome!
 
-💡 Built for everyone who loves finding the perfect Mobile.
+💡 Built for everyone who loves finding the perfect Gadget 📱.
