@@ -89,7 +89,10 @@ _or_ train the model using (instructsions below)
 1. Extract feature vectors from user queries using feature_model.py.
 2. Compute recommendations using cosine similarity between the user vector and item-latent vectors.
 3. Normalize the similarity scores for both models.
-4. Calculate a weighted average of the normalized scores to finalize the recommendations.  
+4. Calculate a weighted average of the normalized scores to finalize the recommendations.
+
+## Future Work
+In future we are thinking to extend our model for variours **gadget recommendations** such as **Laptops**,**Earbuds**,**Washing Machines** etc
 
 ## 🎉 Enjoy the App!
 Your feedback and contributions are welcome!
